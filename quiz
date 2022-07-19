@@ -1,0 +1,71 @@
+# this is my first quiz ever in python
+hari_bahadur = ("""  
+.  .  ,.  ,-.  ,   ,-.   ,.  .  .  ,.  ,-.  .  . ,-.  
+|  | /  \ |  ) |   |  ) /  \ |  | /  \ |  \ |  | |  ) 
+|--| |--| |-<  |   |-<  |--| |--| |--| |  | |  | |-<  
+|  | |  | |  \ |   |  ) |  | |  | |  | |  / |  | |  \ 
+'  ' '  ' '  ' '   `-'  '  ' '  ' '  ' `-'  `--` '  ' 
+                                                      
+,   . ,--. ,     ,-.  ,-.  .   , ,--.  ,-.            
+| . | |    |    /    /   \ |\ /| |    (   `           
+| ) ) |-   |    |    |   | | V | |-    `-.            
+|/|/  |    |    \    \   / |   | |    .   )           
+' '   `--' `--'  `-'  `-'  '   ' `--'  `-'            
+                                                      
+,---.  ,-.    ,---. .  . ,--.                         
+  |   /   \     |   |  | |                            
+  |   |   |     |   |--| |-                           
+  |   \   /     |   |  | |                            
+  '    `-'      '   '  ' `--'                         
+                                                      
+ ,-.   .  . , ,---,                                   
+/   \  |  | |    /                                    
+|   |  |  | |   /                                     
+\   X  |  | |  /                                      
+ `-' ` `--` ' '---'                                   
+  """)
+print (hari_bahadur)
+print("\n")
+playing = input("do you wan to play? : ")
+print ("\n")
+if playing != "yes" or "ok" or "lets go":
+  player_name = input("add your name : ")
+  
+
+print("\n")
+print("ok lets start " +player_name+" ...................")
+score = 0
+print("\n")
+print("question 1")
+
+  
+answer = input("WHAT IS THE CAPITAL OF FINLAND? :  ")
+if answer.lower() == "helsinki":
+  print("correct!")
+  score += 1
+else:
+  print("incorrect!")
+print("\n")
+
+answer = input("WHICH FIVE COLOURS MAKE UP THE OLYMPIC RINGS?: ")
+if answer.lower() == "black, green, blue, yellow and red" or "black, green, blue, yellow, red" or "black green blue yellow red":
+  print("correct!")
+  score += 1
+else:
+  print("incorrect!")
+print("\n")
+
+answer = input("WHICH IS THE MOST SOLD FLAVOURS OF WALKER,S CRISPS? : ")
+if answer.lower() == "cheese and onion":
+  print("correct!")
+  score += 1
+else:
+  print("incorrect")
+
+print("\n")
+
+
+
+
+print ("you got "+str(score)+ " questions correct!")
+
